@@ -1,0 +1,375 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../node_modules/angular-material/angular-material.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/93880/UntitledProject/style.css?mktx69">
+		<script src="https://use.typekit.net/oxf4zhq.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-flexbox">
+				<span class="icon-alert-link"></span>
+			</div>
+			<div class="header-flexbox">
+				<div class="avatar"></div>
+				<p><a href="" class="bold-link">Stacey Gomez</a></p>
+			</div>
+			<h3>Get Talent Pool</h3>
+			
+		</div>
+		<div class="nav">
+			<div class="icon-nav">
+				<span class="icon-nav-active icon-home-active"></span>
+			</div>
+			<div class="icon-nav">
+				<span class="icon-nav-link icon-pipeline-link"></span>
+			</div>
+			<div class="icon-nav">
+				<span class="icon-nav-link icon-campaign-link"></span>
+			</div>
+			<div class="icon-nav">
+				<span class="icon-candidates-link icon-nav-link"></span>
+			</div>
+			<div class="icon-nav">
+				<span class="icon-gear-link icon-nav-link" style="bottom:21px; left: 13px; position:fixed;"></span>
+			</div>
+		</div>
+
+		<div class="container" id="top">
+			<h4>Rules and Regulations</h4>
+			<h1>Defining the UI Kit</h1>
+			<div class="well">
+				<h3>
+					What is this document?
+				</h3>
+				<p>
+					The purpose of this document is to explain how to use general components. It has a couple of UI styles included in it as well. They are loose overall, but pretty structured overall as well.
+				</p>
+				<div class="nested-well">
+					<h4>
+					Directory
+					</h4>
+					<ul>
+						<li>
+							<a href="#colors" class="smoothscroll">Colors</a>
+						</li>
+						<li>
+							<a href="#wells" class="smoothscroll">Wells / Containers</a>
+						</li>
+						<li>
+							<a href="#links" class="smoothscroll">Links</a>
+						</li>
+						<li>
+							<a href="#icons" class="smoothscroll">Icons</a>
+						</li>
+						<li>
+							<a href="#tables" class="smoothscroll">Tables</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="well" id="colors">
+				<h3>Colors</h3>
+				<p>The current color theme is pretty simple and modern. In the future, the graphs will be doing most of the talking with very fun colors that will dominate the UI. For the time being, everything else will be very neutral.</p>
+				<div class="table">
+					<div class="table-header">
+						<h4><a href="">These are base colors</a></h4>
+					</div>
+					<div class="row">
+						<div class="avatar" style="background:white;  border:1px solid #a8aeaf;"></div>
+						<p>
+							<strong>White</strong>
+							<br>
+							Main
+						</p>
+					</div>
+					<div class="row">
+						<div class="avatar bg-dark"></div>
+						<p>
+							<strong>Dark</strong>
+							<br>
+							Main Dark / Active State color
+						</p>
+					</div>
+					<div class="row">
+						<div class="avatar bg-secondary-dark"></div>
+						<p>
+							<strong>Secondary Dark</strong>
+							<br>
+							Only to be used as compliment to Main dark
+						</p>
+					</div>
+
+					<!-- <div class="row">
+						<div class="avatar bg-main-gray"></div>
+						<p>
+							<strong>Main Gray</strong>
+							<br>
+							Main paragraph colors
+						</p>
+					</div> -->
+					<div class="row">
+						<div class="avatar bg-link-gray"></div>
+						<p>
+							<strong>Links Gray</strong>
+							<br>
+							To be used in all instances of links. This includes form bars, icons and text.
+						</p>
+					</div>
+					<div class="row">
+						<div class="avatar bg-light-gray"></div>
+						<p>
+							<strong>Lights Gray</strong>
+							<br>
+							Base border patrol
+						</p>
+					</div>
+					<div class="row">
+						<div class="avatar bg-gray"></div>
+						<p>
+							<strong>Background Gray</strong>
+							<br>
+							Super light bg color. Only to be used for backgrounds.
+						</p>
+					</div>
+					<div class="row">
+						<div class="avatar bg-link-blue"></div>
+						<p>
+							<strong>Blue</strong>
+							<br>
+							Only for text links for the time being. It will eventually be part of the graph kit.
+						</p>
+					</div>
+					<div class="row">
+						<div class="avatar bg-active-blue"></div>
+						<p>
+							<strong>Active blue link</strong>
+							<br>
+							Only for active text links for the time being. It will eventually be part of the graph kit.
+						</p>
+					</div>
+					<div class="row">
+						<div class="avatar bg-secondary-hilight"></div>
+						<p>
+							<strong>Secondary hilight color</strong>
+							<br>
+							Intended for graphs only for the time being.
+						</p>
+					</div>
+				</div>
+				<p>
+					<a href="#top" class="smoothscroll">Back to top.</a>
+				</p>
+			</div>
+			<div class="well" id="wells">
+				<h3>Wells / Containers</h3>
+				<p>A well is a container. There are currently three types of containers but are all similar. When to use which:</p>
+				<div class="nested-well">
+					<h4>Rules</h4>
+					<ul>
+						<li>
+							The parent well is simple called ".well" It should be used on the light gray background.
+						</li>
+						<li>
+							There are two types of nested wells. One that is filled and one that is not. They need to be within a main well.
+						</li>
+						<li>
+							The filled well can be used for ABC.
+						</li>
+					</ul>
+				</div>
+				<p>
+					<a href="#top" class="smoothscroll">Back to top.</a>
+				</p>
+			</div>
+			<div class="well" id="links">
+				<h3>Links</h3>
+				<div class="nested-well">
+					<h4>Body Copy Links</h4>
+					<ul>
+						<li>
+							<a class="bold-link">There is a chubby blue link </a>- This link should be used for main CTAs and objects. Examples listed below:  
+							<ul>
+								<li>
+									Candidates Names
+								</li>
+								<li>
+									Admin Names
+								</li>
+								<li>
+									Objects
+								</li>
+								<li>
+									Pipeline
+								</li>
+								<li>
+									Campaign
+								</li>
+								<li>
+									Create an object
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a>There is a thin blue link </a>- This link is default and should be used for secondary CTAs. Examples listed below:  
+							<ul>
+								<li>
+									Secondary page navigation. As shown here with the navigation throughout document.
+								</li>
+								<li>
+									Dates
+								</li>
+								<li>
+									user actions
+								</li>
+								<li>
+									candidate details
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<p>How do you know when to use what? How about <a href="" class="bold-link">Stacey Gonzales</a> <a href="">googled</a> <a href="" class="bold-link">Patty Castaneda</a> on <a href="">February 3rd, 2014</a>. Looks weird right? Linking items like so isn't the desired effect. These rules need to be flushed out more during UX / UI meeting to make sure there are limitation on how these rules are used.</p>
+				</div>
+
+				<div class="nested-well">
+					<h4>Gray Links</h4>
+					<p>All icons and H4 links are gray links. It's all pretty clear in the SCSS. Icons are depicted in the <a href="#icons" class="smoothscroll">icons section</a> with how they work.</p>
+					<p>It's good for:</p>
+					<h4><a href="">Cancel</a></h4>
+					<h4><a href="">Tabs</a></h4>
+					<h4><a href="">Table Headers</a></h4>
+				</div>
+				<div class="nested-well">
+					<h4>Button Rules</h4>
+					<p>There are two types of buttons, a primary button and a secondary CTA button as displayed below.</p>
+					<ul>
+						<li>
+							Buttons should align right when they are the main CTA.
+						</li>
+						<li>
+							Buttons should be caps locked.
+						</li>
+						<li>
+							Buttons action CTA should be very clear and precise.
+						</li>
+					</ul>
+					
+					
+					<button class="primary">Primary / Default</button>
+					<button class="secondary" style="float:right; display: inline-block;">secondary</button>
+				</div>
+				<p>
+					<a href="#top" class="smoothscroll">Back to top.</a>
+				</p>
+			</div>
+			<div class="well" id="icons">
+				<h3>Icons</h3>
+				<p>Icons will frequently be used for links. So, there are two types of views for an icon:
+				<ol>
+					<li>
+						The link state should be outlined and the link gray color.
+					</li>
+					<li>
+						The active state should be filled in and the dark active color.
+					</li>
+				</ol>
+				<p>
+					If an icon isn't a link, it will just default to the active color behavior. On a dark bg, the active state turns white. The link color remains the same light link gray.
+				</p>
+
+
+				<div class="half">
+					<div class="well">
+						<div class="icon-nav">
+							<span class="icon-pipeline-link icon-nav-link"></span>
+							
+						</div>
+						<h4 class="center"><a href="">Link state</a></h4>
+					</div>
+				</div>
+				<div class="half">
+					<div class="well">
+						<div class="icon-nav">
+							<span class="icon-active icon-pipeline-active"></span>
+						</div>
+						<h4 class="center">Active state</h4>
+					</div>
+				</div>
+				<p><strong>Note: </strong>In this document, the link and the icon change colors at different times. That's not the intended interaction. They should change at the same time when hovered over.</p>
+				<p>
+					<a href="#top" class="smoothscroll">Back to top.</a>
+				</p>
+			</div>
+			<div class="well" id="tables">
+				<h3>Tables</h3>
+				<div class="nested-well">
+					<h4>Header Rules</h4>
+					<ul>
+						<li>
+							The sort icon should be 13px of the right of the category name.
+						</li>
+						<li>
+							If the child value is a string, then the category should align with the value on the left hand side.
+						</li>
+						<li>
+							If the child value is a number, then the category should align with the value on the right hand side.
+						</li>
+					</ul>
+				</div>
+				<div class="nested-well">
+					<h4>Table Rows Rules</h4>
+						<ul>
+							<li>
+							If the value is a string, then it should align left.
+							</li>
+							<li>
+								If the value is a number, then it should align right.
+							</li>
+						</ul>
+				</div>
+				<div class="table">
+					<div class="table-header">
+						<h4><a href=""> this is a category</a></h4>
+					</div>
+					<div class="row">
+						<div class="avatar"></div>
+						<p>
+							<a href="" class="bold-link">Patty Castaneda</a>
+							<br>
+							UX Designer
+						</p>
+					</div>
+					<div class="row row-hilight">
+						<div class="avatar"></div>
+						<p>
+							<a href="" class="bold-link">Patty Castaneda</a>
+							<br>
+							UX Designer
+						</p>
+					</div>
+				</div>
+				<p>
+					<a href="#top" class="smoothscroll">Back to top.</a>
+				</p>
+			</div>
+			
+			
+
+		</div>
+		
+		<!-- Javascripts -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
+		<script src="../node_modules/angular/angular.js" type="text/javascript" ></script>
+    <script src="../node_modules/angular-animate/angular-animate.js" type="text/javascript" ></script>
+    <script src="../node_modules/angular-aria/angular-aria.js" type="text/javascript" ></script>
+    <script src="../node_modules/angular-material/angular-material.js" type="text/javascript" ></script>
+
+    <script>
+        // Include the dependency upon ngMaterial - important !!
+        angular.module('starterApp', ['ngMaterial']);
+    </script>
+	</body>
+</html>
