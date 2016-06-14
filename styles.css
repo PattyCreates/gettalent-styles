@@ -38,7 +38,7 @@ h4, button {
   text-transform: uppercase; }
 
 h4 a, button a {
-  color: #757b8c;
+  color: #969cab;
   text-decoration: none; }
   h4 a:hover, button a:hover {
     color: #28283a; }
@@ -61,7 +61,7 @@ p {
   line-height: 1.65em; }
 
 p {
-  margin: 8px auto 13px auto;
+  margin: 8px auto;
   display: inline-block; }
 
 ol,
@@ -105,12 +105,8 @@ a.bold-link {
     padding: 3px 34px;
     border-left: 1px solid #dbe2e7; }
     .header .header-flexbox .avatar {
-      display: inline-block;
-      background: #757b8c;
       width: 34px;
       height: 34px;
-      float: left;
-      border-radius: 50%;
       margin: 8px 13px 8px auto; }
 
 .well,
@@ -148,7 +144,7 @@ hr {
   margin: 13px auto; }
 
 .container {
-  max-width: 1200px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding: 90px 34px 34px 89px; }
@@ -172,7 +168,7 @@ hr {
   text-align: center;
   margin: 34px auto; }
   .icon-nav .icon-nav-link {
-    color: #757b8c; }
+    color: #969cab; }
   .icon-nav .icon-nav-active {
     color: white; }
 
@@ -193,11 +189,21 @@ hr {
 .icon-link {
   text-decoration: none;
   border: none;
-  color: #757b8c; }
+  color: #969cab; }
   .icon-link:active {
     color: #28283a; }
   .icon-link:hover {
     color: #28283a; }
+
+.icon-right {
+  float: right;
+  margin: 13px auto;
+  display: inline-block; }
+
+.icon-left {
+  float: left;
+  margin: 13px 13px 13px auto;
+  display: inline-block; }
 
 .icon-active {
   color: #28283a; }
@@ -226,9 +232,9 @@ button.primary {
   margin-left: 21px; }
 
 button.secondary {
-  color: #757b8c;
+  color: #969cab;
   background-color: white;
-  border: 1px solid #757b8c; }
+  border: 1px solid #969cab; }
   button.secondary:hover {
     color: #28283a;
     background: #fafbfc;
@@ -266,7 +272,7 @@ button.secondary {
 
 .avatar {
   display: inline-block;
-  background: #757b8c;
+  background: #969cab;
   border-radius: 50%;
   float: left; }
 
@@ -279,15 +285,6 @@ button.secondary {
   color: white;
   background: #00c2ff;
   /* Gecko Browsers */ }
-
-.half {
-  width: 50%;
-  float: left;
-  display: inline-block; }
-
-h4.center, button.center,
-p.center {
-  text-align: center; }
 
 .bg-dark {
   background: #28283a; }
@@ -305,7 +302,7 @@ p.center {
   background: #fafbfc; }
 
 .bg-link-gray {
-  background: #757b8c; }
+  background: #969cab; }
 
 .bg-link-blue {
   background: #00c2ff; }
@@ -315,3 +312,12 @@ p.center {
 
 .bg-secondary-hilight {
   background: #00c4ab; }
+
+.half {
+  width: 50%;
+  float: left;
+  display: inline-block; }
+
+h4.center, button.center,
+p.center {
+  text-align: center; }

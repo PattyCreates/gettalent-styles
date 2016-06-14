@@ -22,7 +22,8 @@ $color-bg-gray: #FAFBFC;
 //grays links
 // $color-link-gray: #A2A2B0;
 // $color-link-gray: #ACAEBD;
-$color-link-gray: #757b8c;
+// $color-link-gray: #757b8c;
+$color-link-gray: #969CAB;
 // $color-link-gray: #8F94A2;
 // $color-link-gray: #2B5777;
 $color-active-gray: $color-main-dark;
@@ -155,7 +156,7 @@ p {
 }
 
 p {
-	margin: 8px auto 13px auto;
+	margin: 8px auto;
 	display: inline-block;
 }
 
@@ -256,7 +257,7 @@ hr {
 
 //container is lorem ipsum Should follow grid dimensions.
 .container  {
-	max-width: 1200px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 90px 34px 34px 89px;
@@ -320,6 +321,18 @@ hr {
 	&:hover {
 		color: $color-active;
 	}
+}
+
+.icon-right {
+	float: right;
+	margin:  13px auto;
+	display: inline-block;
+}
+
+.icon-left {
+	float: left;
+	margin:  13px 13px 13px auto;
+	display: inline-block;
 }
 
 .icon-active {
